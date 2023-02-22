@@ -4,13 +4,14 @@ import Test from './Test';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './ProductComponent/Product';
 import TableProd from './ProductComponent/TableProd';
+import Products from './fnComponent/Products';
 
 function App() {
   return (
     <div className="App">
      
-     
-     <TableProd/>
+     <Products/>
+     {/* <TableProd/> */}
     </div>
   );
 }

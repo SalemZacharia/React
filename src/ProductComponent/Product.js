@@ -6,6 +6,7 @@ export default class Product extends Component {
   constructor(){
     super();
     this.state={ like:0}
+    console.log(this.product);
   }
   handleClick() {
     this.setState((prevState) => {
@@ -37,6 +38,9 @@ export default class Product extends Component {
         <Button onClick={() => {
             this.handleClick();
           }} variant="primary">Like</Button>
+          <Button>
+            Buy
+          </Button>
       </Card.Body>
     </Card>
 
